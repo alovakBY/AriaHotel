@@ -1,0 +1,19 @@
+[data-number="0"] {
+  background: url(../img/rooms/rooms2/2rooms_1.jpg) center center no-repeat;
+  background-size: contain;
+}
+
+[data-number="1"] {
+  background: url(../img/rooms/rooms2/2rooms_2.jpg) center center no-repeat;
+  background-size: contain;
+}
+
+[data-number="2"] {
+  background: url(../img/rooms/rooms2/2rooms_3.jpg) center center no-repeat;
+  background-size: contain;
+}
+
+[data-number="3"] {
+  background: url(../img/rooms/rooms2/2rooms_4.jpg) center center no-repeat;
+  background-size: contain;
+}

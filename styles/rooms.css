@@ -1,0 +1,289 @@
+@import url("style_0.css");
+@import url("header.css");
+@import url("footer.css");
+
+.title {
+  background: url(../img/rooms/title_bg.jpg) center center no-repeat;
+  background-size: cover;
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  color: white;
+  margin: 100px 0 0;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 70px 15px 60px;
+  background-color: #f2f2f2;
+}
+
+.container1200px {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-room-title {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.main-room-slider {
+  height: 600px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.main-room-slider-wraper {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.main-room-slider-menu {
+  min-width: 900px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding: 5px 0;
+  background-color: white;
+}
+
+.main-room-slider-menu-div {
+  flex-shrink: 0;
+  width: 150px;
+  height: 120px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.activ-rooms-menu {
+  border: 1px solid #5a477d;
+}
+
+.main-room-slider-line {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.5s;
+  background-color: white;
+}
+
+.main-room-slider-line-img {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.main-room-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.main-room-info div + div {
+  margin-left: 5px;
+}
+
+.main-room-info-square {
+  flex: 1 1 25%;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-room-info-square p:last-child {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #000000;
+}
+
+.fas,
+.fa-square {
+  font-size: 32px;
+  color: #5a477d;
+}
+
+.main-room-specification {
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 15px;
+}
+
+.main-room-specification-title {
+  font-family: "Playfair Display", serif;
+  font-size: 23px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.main-room-specification-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.main-room-reservation {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.main-room-reservation {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.main-room-reservation div + div {
+  margin-top: 25px;
+}
+
+.fa-clipboard {
+  font-size: 100px;
+  color: black;
+}
+.main-room-reservation-title {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 18px;
+  color: #000000;
+}
+.main-room-reservation-tel a {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #5a477d;
+}
+.main-room-reservation-text {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 1.1;
+  font-style: italic;
+  color: #909090;
+}
+
+@media all and (max-width: 1440px) {
+  .title {
+    height: 150px;
+    margin: 80px 0 0;
+  }
+
+  .main-room-slider {
+    height: 500px;
+  }
+
+  .main-room-slider-menu {
+    height: 100px;
+  }
+
+  .main-room-slider-menu-div {
+    height: 80px;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .main {
+    padding: 15px;
+  }
+
+  .main-room-slider-menu {
+    display: none;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .title {
+    font-size: 40px;
+    height: 100px;
+  }
+
+  .main-room-title {
+    display: none;
+  }
+
+}
+
+@media all and (max-width: 640px) {
+  .main-room-slider {
+    height: 400px;
+  }
+	.main-room-info {
+		margin: 5px 0;
+}
+  .main-room-info-square {
+	height: 80px;
+}
+
+@media all and (max-width: 450px) {
+	.title {
+		font-size: 30px;
+		height: 80px;
+	 }
+
+	.main-room-slider {
+		height: 200px;
+	 }
+
+	 .main-room-info-square {
+		height: 60px;
+	 }
+
+	 .main-room-info-square p:last-child {
+		font-size: 14px;
+	 }
+	 
+	 .fas,
+	 .fa-square {
+		font-size: 20px;
+	 }
+
+	.main-room-specification {
+		padding: 20px;
+	}
+
+	.main-room-specification-title {
+		margin-bottom: 20px;
+	}
+
+	.main-room-specification-text {
+		font-size: 14px;
+    	line-height: 1.2;
+	}
+
+	.main-room-reservation {
+		padding: 20px;
+	}
+
+	.fa-clipboard {
+		font-size: 50px;
+	}
+
+	.main-room-reservation div + div  {
+		margin-top: 15px;
+	}
+
+	.main-room-reservation-title {
+		font-size: 18px;
+     line-height: 1;
+	}
+
+	.main-room-reservation-text {
+		font-size: 14px;
+		line-height: 1.1;
+	}
+}

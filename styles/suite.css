@@ -1,0 +1,24 @@
+[data-number="0"] {
+  background: url(../img/rooms/suite/suite_1.jpg) center center no-repeat;
+  background-size: contain;
+}
+
+[data-number="1"] {
+  background: url(../img/rooms/suite/suite_2.jpg) center center no-repeat;
+  background-size: contain;
+}
+
+[data-number="2"] {
+  background: url(../img/rooms/suite/suite_3.jpg) center center no-repeat;
+  background-size: contain;
+}
+
+[data-number="3"] {
+  background: url(../img/rooms/suite/suite_4.jpg) center center no-repeat;
+  background-size: contain;
+}
+
+[data-number="4"] {
+  background: url(../img/rooms/suite/suite_5.jpg) center center no-repeat;
+  background-size: contain;
+}
