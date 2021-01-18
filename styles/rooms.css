@@ -177,12 +177,14 @@ body {
   font-size: 100px;
   color: black;
 }
+
 .main-room-reservation-title {
   font-family: "Playfair Display", serif;
   font-size: 20px;
   line-height: 18px;
   color: #000000;
 }
+
 .main-room-reservation-tel a {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -190,6 +192,7 @@ body {
   font-weight: 700;
   color: #5a477d;
 }
+
 .main-room-reservation-text {
   font-family: "Playfair Display", serif;
   font-size: 16px;
