@@ -83,25 +83,24 @@ body {
   align-items: center;
 }
 
-[type="email"] {
+.form [type="email"] {
   width: 222px;
   height: 30px;
   background-color: #646464;
   padding: 5px;
 }
 
-[type="submit"] {
+.form [type="submit"] {
   width: 55px;
   height: 30px;
   background-color: #5a477d;
+  color: #ffffff;
+  font-size: 18px;
 }
 
-.fa-long-arrow-alt-right {
-  font-family: FontAwesome;
-  font-size: 18px;
+.form .submit .fa-long-arrow-alt-right {
   line-height: 24px;
   font-weight: 400;
-  color: #ffffff;
 }
 
 .footer-bottom {
